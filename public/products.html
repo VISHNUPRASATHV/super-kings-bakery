@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Kinge's Bakery and Sweets - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-switch">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Super Kinge's Logo">
+            <div class="logo-text">
+                <h1>Super Kinge's</h1>
+                <p>Bakery & Sweets</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="products-page">
+        <h2>Our Delicious Products</h2>
+        <div class="product-filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="bread">Bread</button>
+            <button class="filter-btn" data-category="cakes">Cakes</button>
+            <button class="filter-btn" data-category="pastries">Pastries</button>
+            <button class="filter-btn" data-category="sweets">Sweets</button>
+        </div>
+        <div class="product-grid" id="productContainer">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Super Kinge's</h3>
+                <p>Bakery & Sweets</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Super Kinge's Bakery & Sweets. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
